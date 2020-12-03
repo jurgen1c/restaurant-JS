@@ -1,0 +1,17 @@
+body{
+  background: lightgray;
+}
+.banner{
+  background: url('./');
+}
+
+.menu-btn,
+.contact-btn{
+  padding: 1rem;
+  font-size: 1rem;
+  background: lightblue;
+}
+
+.active{
+  background: blue;
+}
