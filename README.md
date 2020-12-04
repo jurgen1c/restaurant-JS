@@ -25,7 +25,7 @@
 - Webpack
 -	SASS  
 
-### Check out the live demo [here](https://raw.githack.com/jurgen1c/restaurant-JS/development/dist/index.html)     
+### Check out the live demo [here](https://deploy-preview-3--hardcore-ride-94bb5a.netlify.app/)     
 
 ## 👤 Authors
 
