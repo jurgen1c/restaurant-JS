@@ -9,17 +9,22 @@ class Contact{
     let tittleWrap = document.createElement('h2');
     let msgWrap = document.createElement('p');
     tittleWrap.className = 'cont-title';
+    tittleWrap.innerText = this.title;
     msgWrap.className = 'cont-msg';
-    infoWrap.appendChild(tittleWrap, msgWrap);
+    msgWrap.innerHTML = this.msg;
+    infoWrap.className = 'info-wrap';
+    infoWrap.appendChild(tittleWrap);
+    infoWrap.appendChild(msgWrap);
 
     let form = document.createElement('form');
     let ninput = document.createElement('input');
-    let fBtn = document.createElement('button', 'Contact');
-    form.appendChild(ninput, fBtn);
+    let fBtn = document.createElement('button');
+    fBtn.innerHTML = 'Contact';
+    form.appendChild(ninput);
+    form.appendChild(fBtn);
 
-    
-    infoWrap.className = 'info-wrap';
-    base.appendChild(infoWrap, form);
+    base.appendChild(infoWrap);
+    base.appendChild(form);
     base.className = 'cont-wrap'
     this.content = base;
   }
