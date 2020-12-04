@@ -1,28 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: lightgray;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 45%;
   height: auto;
   margin: 2rem 0;
-  input{
+
+  input {
     width: 65%;
     outline: none;
   }
-  button{
+
+  button {
     margin: 1rem 0;
-    font-size: .9rem;
-    padding: .5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
     width: 4rem;
     color: white;
     background: blue;
@@ -32,12 +34,12 @@ form{
   }
 }
 
-#content{
+#content {
   width: 100%;
   min-height: 100vh;
 }
 
-.banner{
+.banner {
   background: url('./images/banner.jpg');
   background-size: cover;
   background-position: center;
@@ -47,7 +49,7 @@ form{
   text-align: center;
 }
 
-.header{
+.header {
   width: auto;
   font-size: 5.5rem;
   color: lightgray;
@@ -55,7 +57,7 @@ form{
 
 .menu-btn,
 .contact-btn,
-.imenu-btn{
+.imenu-btn {
   margin: 1rem 1rem;
   padding: 1rem;
   font-size: 1rem;
@@ -63,23 +65,24 @@ form{
   border-radius: 10px;
   border: none;
   outline: none;
-  &:hover{
+
+  &:hover {
     background: blue;
   }
 }
 
-.tab-content{
+.tab-content {
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem auto;
+  padding: 1rem 0;
 }
 
-.menu-wrap{
+.menu-wrap {
   width: 48%;
   padding: 1rem;
-  margin: .5rem;
+  margin: 0.5rem;
   border-radius: 10px;
   text-align: center;
 }
@@ -87,37 +90,38 @@ form{
 .menu-0,
 .menu-1,
 .menu-2,
-.menu-3{
+.menu-3 {
   width: 90%;
   height: 18em;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.menu-0{
+
+.menu-0 {
   background: url('./images/filet.jpg');
 }
 
-.menu-1{
+.menu-1 {
   background: url('./images/orange.jpg');
 }
 
-.menu-2{
+.menu-2 {
   background: url('./images/fish.jpg');
 }
 
-.menu-3{
+.menu-3 {
   background: url('./images/shrimp.jpg');
 }
 
-.cont-wrap{
+.cont-wrap {
   display: flex;
   justify-content: space-around;
-  padding: .5rem;
+  padding: 0.5rem;
   width: 100%;
 }
 
-.info-wrap{
+.info-wrap {
   width: 50%;
   background: url('./images/restaurant.jpg');
   background-size: cover;
@@ -126,15 +130,17 @@ form{
   height: auto;
   text-align: center;
   padding: 3rem 1rem;
-  .cont-title{
+
+  .cont-title {
     color: white;
     margin: 1.4rem 0;
     font-size: 4rem;
     width: auto;
   }
-  .cont-msg{
+
+  .cont-msg {
     font-size: 1.5rem;
-    padding: .5rem;
+    padding: 0.5rem;
     background: lightblue;
     border-radius: 7px;
     width: auto;
