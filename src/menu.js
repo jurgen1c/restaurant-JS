@@ -1,14 +1,14 @@
-class Menu{
-  constructor(img, title, des){
+class Menu {
+  constructor(img, title, des) {
     this.img = img;
     this.title = title;
     this.des = des;
 
-    let base = document.createElement('div');
-    let imgWrap = document.createElement('div');
-    let titleWrap = document.createElement('h3');
-    let desWrap = document.createElement('p');
-    let btn = document.createElement('button');
+    const base = document.createElement('div');
+    const imgWrap = document.createElement('div');
+    const titleWrap = document.createElement('h3');
+    const desWrap = document.createElement('p');
+    const btn = document.createElement('button');
     imgWrap.className = this.img;
     titleWrap.className = 'menu-title';
     titleWrap.innerText = this.title;
@@ -27,4 +27,4 @@ class Menu{
 }
 
 
-export  {Menu}
+export default Menu;

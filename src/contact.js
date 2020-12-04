@@ -1,13 +1,13 @@
-class Contact{
-  constructor(title, msg){
+class Contact {
+  constructor(title, msg) {
     this.title = title;
     this.msg = msg;
 
-    let base = document.createElement('div');
+    const base = document.createElement('div');
 
-    let infoWrap = document.createElement('div')
-    let tittleWrap = document.createElement('h2');
-    let msgWrap = document.createElement('p');
+    const infoWrap = document.createElement('div');
+    const tittleWrap = document.createElement('h2');
+    const msgWrap = document.createElement('p');
     tittleWrap.className = 'cont-title';
     tittleWrap.innerText = this.title;
     msgWrap.className = 'cont-msg';
@@ -16,19 +16,19 @@ class Contact{
     infoWrap.appendChild(tittleWrap);
     infoWrap.appendChild(msgWrap);
 
-    let form = document.createElement('form');
-    let ninput = document.createElement('input');
-    let fBtn = document.createElement('button');
+    const form = document.createElement('form');
+    const ninput = document.createElement('input');
+    const fBtn = document.createElement('button');
     fBtn.innerHTML = 'Contact';
     form.appendChild(ninput);
     form.appendChild(fBtn);
 
     base.appendChild(infoWrap);
     base.appendChild(form);
-    base.className = 'cont-wrap'
+    base.className = 'cont-wrap';
     this.content = base;
   }
 }
 
 
-export {Contact}
+export default Contact;
